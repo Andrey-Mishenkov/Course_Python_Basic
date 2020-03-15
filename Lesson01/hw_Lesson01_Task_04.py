@@ -14,6 +14,9 @@ while (number > 0):
     if (div_mod > number_max):
         number_max = div_mod
 
+    if (number_max == 9):
+        break
+
     number = number // 10
 
 print(f'Максимальная цифра = {number_max}')
