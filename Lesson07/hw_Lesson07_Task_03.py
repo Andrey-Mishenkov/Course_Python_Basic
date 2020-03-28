@@ -36,7 +36,7 @@ class Cell:
         if (dif > 0):
             return Cell(dif)
         else:
-            return f'Вычитание невозможно:\n\tКоличество ячеек 1-й клетки {self.count_cells} должно быть больше, чем у 2-й {other.count_cells}'
+            return f'Вычитание невозможно! \n\tКоличество ячеек 1-й клетки ({self.__count_cells}) должно быть больше, чем у 2-й ({other.__count_cells})'
 
     # -------------------------------------------------------------------------------------------------------------------------------
     # умножение
@@ -85,6 +85,7 @@ cell_4 = Cell(15)
 
 print(f'Сложение клеток:  Cell({cell_1}) и Cell({cell_2}) = {cell_1 + cell_2}')
 print(f'Вычитание клеток: Cell({cell_1}) и Cell({cell_2}) = {cell_1 - cell_2}')
+print(f'Вычитание клеток: Cell({cell_2}) и Cell({cell_3}) = {cell_2 - cell_3}')
 print(f'Умножение клеток: Cell({cell_1}) и Cell({cell_2}) = {cell_1 * cell_2}')
 print(f'Деление клеток:   Cell({cell_1}) и Cell({cell_2}) = {cell_1 / cell_2}')
 print()

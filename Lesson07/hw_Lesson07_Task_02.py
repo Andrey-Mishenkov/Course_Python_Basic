@@ -47,7 +47,7 @@ print('\nЗадание 2\n')
 
 coat_1 = Coat(50)
 suit_1 = Suit(48)
-# print(coat_1._Coat__V)
+
 print(f'Расход ткани на пальто (размер {coat_1._Coat__V}): {coat_1.tissue_consumption}')
 print(f'Расход ткани на костюм (размер {suit_1._Suit__H}): {suit_1.tissue_consumption}')
 
