@@ -33,7 +33,7 @@ class Matrix:
         # создаю новую пустую нулевую марицу
         mt_new = self.setsize(count_rows, count_columns)
 
-        # заполняю новую мтарицу значениями
+        # заполняю новую матрицу значениями
         for i in range(1, count_rows + 1):
             for j in range(1, count_columns + 1):
 
